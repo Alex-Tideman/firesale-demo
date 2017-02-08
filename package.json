@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-packager . 'Fire Sale' --platform=all --arch=all --version=0.36.8",
-    "test": "electron-mocha tests/test.js"
+    "test": "mocha tests/test.js"
   },
   "repository": {
     "type": "git",
